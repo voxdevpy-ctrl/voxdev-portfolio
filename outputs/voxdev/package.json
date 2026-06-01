@@ -1,0 +1,16 @@
+{
+  "name": "voxdev-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portfólio comercial da VoxDev com API de comentários.",
+  "scripts": {
+    "build": "node scripts/build-static.js",
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "test": "node --test",
+    "check": "node scripts/check-javascript.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
